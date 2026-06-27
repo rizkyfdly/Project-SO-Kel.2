@@ -12,8 +12,8 @@ if(!isset($_SESSION['admin']))
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Dashboard Admin</title>
+<meta charset="UTF-8">
+<title>Dashboard Admin</title>
 </head>
 <body>
 
@@ -26,9 +26,33 @@ Selamat datang,
 
 <hr>
 
-<a href="../auth/logout.php">
-    Logout
+<h3>Menu Admin</h3>
+
+<ul>
+
+<li>
+<a href="barang/index.php">
+Daftar Barang
 </a>
+</li>
+
+<li>
+<a href="peminjaman/index.php">
+Kelola Peminjaman
+</a>
+</li>
+
+<li>
+<a href="../auth/logout.php">
+Logout
+</a>
+</li>
+
+</ul>
+
+<hr>
+
+
 
 </body>
 </html>
