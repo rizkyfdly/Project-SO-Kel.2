@@ -1,8 +1,8 @@
 <?php
 
-$host = "db";
+$host = "localhost";
 $user = "root";
-$pass = "root";
+$pass = "";
 $db   = "ukki_db";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
